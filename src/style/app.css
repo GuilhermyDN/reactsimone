@@ -1,0 +1,25 @@
+.navbar {
+    width: 100%; /* Cobrir toda a largura da tela */
+    background-color: #AC4A84; /* Cor de fundo rosa */
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Estilos para os links no navbar */
+.navbar a {
+    text-decoration: none;
+    color: white; /* Cor do texto branca */
+    padding: 8px 16px;
+    transition: background-color 0.3s; /* Adicionar transição suave para a cor de fundo */
+}
+
+.navbar a.selected {
+    background-color: #AC4A84; /* Cor de fundo rosa */
+    color: white; /* Cor do texto branca */
+}
+
+/* Estilo para links quando hover */
+.navbar a:hover {
+    background-color: #FFA0D2; /* Cor de fundo rosa mais clara quando hover */
+    color: white; /* Cor do texto branca quando hover */
+}

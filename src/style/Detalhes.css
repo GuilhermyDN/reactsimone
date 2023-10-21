@@ -1,0 +1,112 @@
+/* Estilos para o contêiner principal */
+.container {
+    display: flex;
+    justify-content: flex-end; /* Alinhar à direita */
+    align-items: flex-start;
+}
+
+.rectangle {
+    background-color: #FAD9E0; /* Cor de fundo rosa claro */
+    width: 200px; /* Largura desejada */
+    padding: 10px; /* Espaçamento interno */
+}
+
+/* Estilos para a imagem */
+.container img {
+    height: 400px;
+    margin-left: 300px;
+    margin-top: 40px;
+}
+
+/* Estilos para o conteúdo textual */
+.text-content {
+    flex: 1; /* Expande para preencher o espaço restante */
+    margin-left: 20px; /* Espaço entre a imagem e o conteúdo */
+}
+
+/* Estilos para o título (h1) */
+.text-content h1 {
+    font-family: Arial, sans-serif; /* Usar fonte Arial */
+    margin: 0; /* Remover margem superior padrão */
+}
+
+/* Estilos para o texto (p) */
+.text-content p {
+    margin: 5px 0; /* Adicionar espaço superior e inferior */
+}
+
+/* Estilos para a seção de avaliação e quantidade */
+.rating-quantity {
+    display: flex;
+    align-items: center;
+    margin-top: 10px; /* Espaço superior */
+}
+
+/* Estilos para a quantidade (select) */
+.rating-quantity select {
+    margin-left: 100px; /* Espaço à esquerda do seletor de quantidade */
+}
+
+/* Estilos para o botão de comprar */
+.button-buy {
+    background-color: #AC4A84; /* Cor de fundo rosa mais escura */
+    color: white; /* Cor do texto branca */
+    padding: 10px 20px;
+    margin-top: 20px; /* Espaço superior */
+}
+
+/* Estilos para o preço (opcional) */
+.price {
+    font-weight: bold;
+    color: #AC4A84; /* Cor de texto rosa mais escura */
+}
+.container h1 {
+    margin-left: 100px;
+    margin-top: 40px; /* Ajuste o valor da margem esquerda conforme necessário */
+}
+.container p {
+    margin-left: 100px;
+    word-wrap: break-word; /* Permite que as palavras quebrem automaticamente */
+    max-width: 400px; /* Define a largura máxima para 200px (ou o valor que preferir) */
+    max-height: 100px; /* Define a altura máxima para 100px (ou o valor que preferir) */
+    overflow: hidden; /* Redefine as margens para garantir que não haja espaçamento indesejado */
+    margin-top: 40px;
+}
+.avaliacao-container {
+    display: flex; /* Torna os elementos internos flexíveis na mesma linha */
+    align-items: center; /* Alinha verticalmente ao centro */
+    margin-right: 100px;
+}
+
+.rating-container {
+    display: flex; /* Torna as estrelas flexíveis na mesma linha */
+    align-items: center; /* Alinha verticalmente ao centro */
+}
+#info-container {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    background-color: #FAD9E0; /* Cor de fundo rosa claro */
+    padding: 10px;
+    border: 2px solid #AC4A84; /* Borda rosa escura */
+    text-align: center;
+}
+
+#price {
+    font-size: 18px; /* Tamanho da fonte do preço */
+    font-weight: bold;
+    color: #ff6600; /* Cor do preço */
+    margin-bottom: 10px; /* Espaçamento abaixo do preço */
+}
+
+#quantity {
+    font-size: 16px; /* Tamanho da fonte da quantidade */
+    margin-bottom: 10px; /* Espaçamento abaixo da quantidade */
+}
+
+#buy-button {
+    background-color: #AC4A84; /* Cor de fundo rosa */
+    color: white; /* Cor do texto branca */
+    padding: 10px 20px; /* Espaçamento interno do botão */
+    cursor: pointer;
+}

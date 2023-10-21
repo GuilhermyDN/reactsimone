@@ -1,0 +1,106 @@
+/* Cores */
+:root {
+    --dark-pink: #83811426;
+    --pink: #AC4A84;
+    --light-pink: #AC4A8531;
+    --off-white: #F7F7F7;
+  }
+  
+  /* Tamanhos de fonte */
+  :root {
+    --font-size-large: 1.8rem;
+    --font-size-medium: 1.4rem;
+    --font-size-small: 1rem;
+  }
+  
+  /* Espaçamento */
+  :root {
+    --s-size: 1rem;
+    --m-size: 1.6rem;
+    --l-size: 3.2rem;
+    --xl-size: 4.8rem;
+  }
+  
+  /* Estilos para o cabeçalho */
+  .header {
+    background-color: var(--pink);
+    color: white;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    padding: 0.8rem 2.5rem;
+  }
+  
+  .header .search {
+    width: 80%;
+    font-size: var(--font-size-large);
+  }
+  
+  .header .cart {
+    cursor: pointer;
+  }
+  /* Estilos para o container dos produtos */
+.product-link {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 20px;
+    width: calc(50% - 20px);
+    text-align: center;
+    margin-bottom: 20px;
+    text-decoration: none;
+    color: #333;
+    display: flex;
+    align-items: center;
+}
+
+.product-link:hover {
+    background-color: #f0f0f0;
+    transition: background-color 0.3s;
+}
+
+/* Estilo para a imagem dentro do link */
+.product-link img {
+    height: 200px; /* Define a altura desejada para a imagem */
+    margin-right: 10px; /* Espaçamento à direita da imagem */
+}
+
+/* Estilo para o h1 dentro do link */
+.product-link h1 {
+    margin: 0; /* Remove a margem padrão do h1 */
+    font-family: Arial, sans-serif; /* Define a fonte desejada, por exemplo, Arial */
+}
+
+/* Estilo para o select dentro do link */
+.product-link select {
+    width: 100px; /* Menor comprimento */
+    height: 40px; /* Maior altura */
+    display: block;
+    margin: 0 auto; /* Centraliza horizontalmente */
+    text-align: center; /* Centraliza o texto horizontalmente no select */
+}
+
+/* Estilo para o preço dentro do link */
+.product-link p {
+    margin-left: auto; /* Move o preço para a extrema esquerda */
+    font-weight: bold; /* Deixa o preço em negrito, se desejado */
+}
+.sort-select {
+    display: flex;
+    align-items: center;
+    background-color: #f0f0f0; /* Cor de fundo cinza claro */
+    padding: 10px;
+    border: 1px solid #ddd;
+    margin-bottom: 20px;
+}
+
+/* Estilo para o rótulo "Ordenar por" */
+.sort-select label {
+    margin-right: 10px; /* Espaço entre o rótulo e o seletor */
+}
+
+/* Estilo para o seletor */
+.sort-select select {
+    width: 200px; /* Largura desejada para o seletor */
+    height: 30px; /* Altura desejada para o seletor */
+}
+

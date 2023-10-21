@@ -1,0 +1,13 @@
+
+/* Estilo padrão das estrelas (cinza) */
+.rating-star {
+    color: gray;
+    cursor: pointer;
+    font-size: 24px; /* Tamanho das estrelas */
+  }
+  
+  /* Estilo das estrelas quando clicadas (dourado) */
+  .rating-star.active {
+    color: gold;
+  }
+  
