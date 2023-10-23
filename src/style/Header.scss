@@ -1,0 +1,66 @@
+/* Estilos para o cabeçalho */
+.header {
+  background-color: var(--pink);
+  color: white;
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  padding: 0.8rem 2.5rem;
+  
+  .search {
+    width: 80%;
+    font-size: var(--font-size-large);
+  }
+  
+  .cart {
+    cursor: pointer;
+  }
+}
+
+.search-bar {
+  display: flex;
+  align-items: center;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+  margin-left: 20px;
+  
+  input {
+    border: none;
+    padding: 10px;
+    width: 100%;
+    border-radius: 4px;
+    
+    &::placeholder {
+      color: #999;
+    }
+  }
+  
+  img {
+    cursor: pointer;
+    margin-left: 10px;
+  }
+}
+
+.cart-icon {
+  height: 30px;
+  cursor: pointer;
+  
+  &:hover {
+    transform: scale(1.1);
+    transition: transform 0.3s;
+  }
+}
+
+/* Estilos para a barra de pesquisa (search-bar) */
+.search-bar {
+  flex-grow: 1; /* Expande para ocupar todo o espaço disponível */
+  align-items: center;
+}
+
+/* Estilos para o input de pesquisa (search-input) */
+.search-input {
+  flex-grow: 1; /* Expande para ocupar todo o espaço disponível */
+  margin: 0 100%; /* Adiciona margens para separação */
+}

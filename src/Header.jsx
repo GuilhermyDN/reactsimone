@@ -1,7 +1,7 @@
 import { useDispatch, useSelector } from "react-redux";
 import { useNavigate } from "react-router-dom";
 import { setFilterText } from "./FilterSlice";
-import './style/Header.css'
+import './style/Header.scss'
 
 export const Header = () => {
     const filter = useSelector((state) => state.filter)

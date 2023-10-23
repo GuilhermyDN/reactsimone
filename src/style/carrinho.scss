@@ -1,0 +1,77 @@
+/* Estilos para o componente Carrinho */
+
+.carrinho {
+  background-color: #FAD9E0; /* Fundo rosa claro */
+  padding: 20px;
+  border: 1px solid #FFDDDD; /* Borda rosa mais escura */
+  border-radius: 5px;
+  margin: 10px;
+  width: 300px;
+
+  h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+
+  .address-section {
+    h3 {
+      font-size: 18px;
+      margin-bottom: 10px;
+    }
+
+    label {
+      display: block;
+      margin-bottom: 10px;
+
+      input[type="radio"] {
+        margin-right: 10px;
+      }
+    }
+  }
+
+  .summary-section {
+    h3 {
+      font-size: 18px;
+      margin-bottom: 10px;
+    }
+
+    div {
+      background-color: #FFE1E6; /* Fundo rosa claro para cada item */
+      border: 1px solid #FFDDDD;
+      border-radius: 5px;
+      padding: 10px;
+      margin-bottom: 10px;
+
+      p {
+        margin: 5px 0;
+      }
+
+      select {
+        width: 100%;
+        padding: 5px;
+        margin: 5px 0;
+      }
+
+      button {
+        background-color: #AC4A84; /* Botões com a cor rosa mais escura */
+        color: white;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        margin-right: 10px;
+        transition: background-color 0.3s;
+
+        &:hover {
+          background-color: #8A2B5C;
+        }
+      }
+    }
+
+    .total {
+      font-size: 20px;
+      font-weight: bold;
+      margin-top: 10px;
+    }
+  }
+}

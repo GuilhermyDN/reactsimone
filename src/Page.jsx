@@ -3,7 +3,7 @@ import { Link, useNavigate, useParams } from "react-router-dom"
 import { visible } from "./Visible"
 import { setShowCategoria, setSortBy, setSortDirection } from "./FilterSlice"
 import numeral from "numeral"
-import './style/page.css'
+import './style/page.scss'
 
 export const Page = () => {
     const navigate = useNavigate();
@@ -35,7 +35,7 @@ export const Page = () => {
                             <img src={produto.image} alt={produto.name} className="product-image" />
                             <h3 className="product-name">{produto.name}</h3>
                             <p className="product-price">R{numeral(produto.price / 100).format('$0,0.00')}</p>
-                            <p className="product-color">Cor: {produto.color}</p>
+                            
                         </Link>
                     );
                 })}

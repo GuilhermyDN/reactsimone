@@ -5,14 +5,13 @@ export const carrinhoSlice = createSlice({
   initialState: [],
   reducers: {
     adicionarAoCarrinho: (state, action) => {
-      const { produto, quantidade, cor } = action.payload;
-      // Adicione a cor ao item do carrinho
-      state.push({ produto, quantidade, cor });
+      const { produto, quantidade, color } = action.payload;
+      
+      state.push({ produto, quantidade, color });
     },
   },
 });
 
-// Exporte as ações geradas automaticamente pelo createSlice
 export const { adicionarAoCarrinho } = carrinhoSlice.actions;
 
 export default carrinhoSlice.reducer;
